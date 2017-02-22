@@ -1,0 +1,22 @@
+@charset "utf-8";
+.right_wz1{
+	position: absolute;
+	left:5%;top:20%;
+	font-size: 14px;
+}
+.right_wz1>p{
+	font-size:18px;
+	font-weight: 600;
+}
+.sanjiao{
+    border-top: 4px solid transparent;
+    border-left: 8px solid #841b22;
+    border-bottom: 4px solid transparent;
+    position: absolute;
+    left:-10px;top:9px;
+}
+.right_wz2{
+	position: absolute;
+	left:5%;bottom:20%;
+	font-size: 18px;
+}

@@ -1,0 +1,103 @@
+*{
+	margin:0;
+	padding:0;
+	border:0;
+}
+body{
+	font-family:"franklin gothic medium";
+	font-size: 100%;
+}
+.shang{
+	position: relative;
+	width: 100%;
+	padding-top: 47.9%;
+	background: url(../img/smartlatchsystem-img/shang.png);
+	background-size: 100% 100%;
+}
+.xia{
+	position: relative;
+	width: 100%;
+	padding-top: 47.9%;
+	background: url(../img/smartlatchsystem-img/xia.png);
+	background-size: 100% 100%;
+}
+.wenzi{
+	top: 26%;
+	left: 9%;
+	font-size:18px;
+	position: absolute;
+	display: inline-block;
+	width: 43%;
+	
+}
+.da{
+	font-size:30px;
+	margin-bottom: 10px;
+}
+.bai{
+	color: white;
+}
+.iphone5{
+	width: 100%;
+	height: 33px;
+	background: #F5F4F4;
+}
+@media only screen and (min-width: 460px)  {
+	.iphone5{
+		display: none;
+	}
+}
+@media only screen and (max-width: 460px) and (min-width: 320px) {
+	.iphone5{
+		display: block;
+	}
+	.wenzi{
+		top: 8%;
+		font-size: 12px;
+	}
+	.da{
+		font-size: 10px;
+	}
+	.yincan{
+		display: none;
+	}
+}
+@media only screen and (max-width: 700px) and (min-width:460px) {
+	
+	.wenzi{
+		top: 8%;
+		font-size: 10px;
+	}
+	.da{
+		font-size:14px;
+	}
+	
+}
+
+@media only screen and (min-width: 768px)  {
+	.wenzi{
+		font-size: 14px;
+	}
+	.da{
+		font-size: 20px;
+	}
+}
+@media only screen and (min-width: 1024px) {
+	.da{
+		    font-size: 1.2rem;
+	}
+	.wenzi{
+		 width: 32%;
+
+	}
+}
+@media only screen and (min-width: 1440px) {
+	.da{
+		font-size: 2.1rem;
+	}
+	.wenzi{
+		 width: 32%;
+
+	}
+}
+    

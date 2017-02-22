@@ -1,0 +1,178 @@
+*{
+	margin:0;
+	padding:0;
+	border:0;
+}
+body{
+	width:100%;
+	height:100%;
+}
+img{
+	display:block;
+	width:100%;
+}
+.body_up,.body_down{
+	position:relative;
+}
+.body_font{
+	height:287px;
+	background:#841c24;
+}
+.font_box{
+	width:83.2%;
+	height:100%;
+	margin:auto;
+	color:#fff;
+}
+.fonts{
+	font-family: "franklin gothic book";
+	font-size:17px;
+	line-height:165%;
+}
+.cont{
+	line-height:380%;
+	font-size:26px;
+}
+.up-div{
+	width:53%;
+	/*height:225px;*/
+	background:rgba(0,0,0,.6);
+	position:absolute;
+	left:8.5%;
+	top:33%;
+	box-sizing:border-box;
+	padding:0% 2% 5%;
+}
+.up_we{
+	color:#fff;
+	font-size:1.78rem;
+	line-height:200%;
+}
+.up_while,.up_join{
+	color:#fff;
+	font-size:1rem;
+	font-family: "franklin gothic book";
+	line-height:130%;
+}
+.down-div{
+	left:auto;
+	right:8.5%;
+	position:absolute;
+	top:33%;
+	box-sizing:border-box;
+	text-align:right;
+	width:41.4%;
+	padding:0% 1% 0.6%;
+	background:rgba(0,0,0,.6);
+}
+.up,.down{
+	position:absolute;
+	left:8.5%;
+	top:18%;
+	z-index:2;
+	color:#fff;
+	width:80%;
+	background:rgba(0,0,0,.6);
+	display:none;
+	box-sizing:border-box;
+	padding:0 2% 5%;
+
+}
+.down{
+	text-align:right;
+	top:36%;
+}
+.we{
+	font-size: .78rem;
+    line-height: 200%;
+}
+.while{
+    font-size: .45rem;
+    font-family: "franklin gothic book";
+    line-height: 130%;
+}
+.join{
+	font-size: .45rem;
+    font-family: "franklin gothic book";
+    line-height: 130%;
+}
+.head-img{
+	position:relative;
+}
+.head-img a{
+	position:absolute;
+	
+	display:block;
+	width:100%;
+	height:28px;
+}
+@media only screen and (min-width: 1500px) {
+	.font_box{
+		width:1200px;
+	}	
+}
+@media only screen and (max-width: 1300px) {
+	.up_we{
+		line-height:100%;
+	}
+	.up_while{
+		margin-top:3%;
+	}
+}
+@media only screen and (max-width:769px) {
+	.up-div{
+		top: 16%;
+	}
+}	
+@media only screen and (max-width:570px){
+	.fonts{
+		font-size:14px;
+	}
+	.up-div{
+		position:absolute;
+		left:8.5%;
+		top:18%;
+		z-index:2;
+		color:#fff;
+		width:80%;
+		background:rgba(0,0,0,.6);
+		box-sizing:border-box;
+		padding:0 2% 1%;
+	}
+	.up_we{
+		font-size: 1rem;
+    	line-height: 130%;
+	}
+	.up_while,.up_join{
+		font-size: .5rem;
+	}
+	.down{
+		top:43%;
+	}
+	.down-div{
+		width:80.4%;
+	}
+}
+@media only screen and (max-width:700px){
+	.up-div,.down-div{
+		width:80.4%;
+	}
+}
+@media only screen and (max-width:380px){
+	.down-div{
+		top:19%;
+	}
+	.up-div{
+		top:6%;
+	}
+}
+@media only screen and (max-width:320px){
+	.up-div{
+		height:125px;
+		overflow:hidden;
+		top:13%
+	}
+	.down-div{
+		top:10%;
+	}
+}

@@ -1,0 +1,37 @@
+@charset "utf-8";
+.right_wz1{
+	position: absolute;
+	left:5%;top:20%;
+	font-size: 10px;
+	color:#dcd5d3;
+}
+.right_wz1>span{
+	display: none;
+}
+.right_wz1>p{
+	font-size:15px;
+}
+.sanjiao{
+    border-top: 3px solid transparent;
+    border-left: 6px solid #841b22;
+    border-bottom: 3px solid transparent;
+    position: absolute;
+    left:-7px;top:8px;
+}
+.right_wz2{
+	position: absolute;
+	left:5%;bottom:20%;
+	font-size: 15px;
+}
+.footer>div{
+	margin-top: 6px;
+}
+.logo_right{
+	font-size:16px;
+	margin-bottom: 10px;
+}
+.footer>p{
+	width:90%;
+	color:#8f8d8f;
+	display: inline-block;
+}
