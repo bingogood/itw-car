@@ -3,22 +3,23 @@
     border-top: 4px solid transparent;
     border-left: 8px solid #841b22;
     border-bottom: 4px solid transparent;
-    left:4%;top:38%;
+    left:4%;top:35%;
 }
 .wenzi1{
-	font-size:20px;
-	top:30%;
+	font-size:23px;
+	top:29%;
 }
 .wenzi2{
-	display: none;
+	font-size:17px;
+	top:45%;
 }
 .wenzi3{
-	font-size:20px;
+	font-size:23px;
 	top:42%;
 }
 .sanjiao2{
     border-top: 4px solid transparent;
     border-left: 8px solid #841b22;
     border-bottom: 4px solid transparent;
-    left:4%;top:52%;
+    left:4%;top:48%;
 }
