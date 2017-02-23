@@ -155,10 +155,15 @@ a{
 	padding:25px 6% ;
 	background:#e5e5e5;
 }
+.neirong>h3{
+	font-family: "franklin gothic medium";
+	font-size:18px;
+}
 .neirong>p{
+	font-family: "franklin gothic book";
 	padding-right: 10%;
 	margin-top: 10px;
-	font-size:14px;
+	font-size:17px;
 }
 .neirong>a{
 	display: block;

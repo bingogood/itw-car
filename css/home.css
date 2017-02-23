@@ -35,7 +35,7 @@ img { -ms-interpolation-mode: bicubic; }
 		width: 100%;
 		padding-top: 4%;
 		position: absolute;
-		top: 18%;
+		top: 20%;
 		box-sizing: border-box;
 		padding-left: 7.7%;
 	}
@@ -43,7 +43,7 @@ img { -ms-interpolation-mode: bicubic; }
 		width: 90%;
 		box-sizing: border-box;
 		color: white;
-		font-size: 50px;
+		font-size: 55px;
 		font-family: "franklin gothic medium";
 		display: block;
 		letter-spacing: 2px;
@@ -148,7 +148,7 @@ img { -ms-interpolation-mode: bicubic; }
 		width: 90%;
 		box-sizing: border-box;
 		color: white;
-		font-size: 50px;
+		font-size: 45px;
 		font-family: "franklin gothic medium";
 		display: block;
 		letter-spacing: 2px;
@@ -159,7 +159,7 @@ img { -ms-interpolation-mode: bicubic; }
 		letter-spacing: 1px;
 		font-family: tahoma;
 		text-shadow: 5px 8px 30px gray;
-		font-size: 30px;
+		font-size: 28px;
 		color: white;
 	}
 	.list-home{
@@ -271,7 +271,7 @@ img { -ms-interpolation-mode: bicubic; }
 		width: 89%;
 		height: 25%;
 		position: absolute;
-		bottom: 2.5%;
+		bottom: 3.8%;
 		padding-left: 7.5%;
 		z-index: 5;
 	}
@@ -345,7 +345,7 @@ img { -ms-interpolation-mode: bicubic; }
 		width: 100%;
 		box-sizing: border-box;
 		color: white;
-		font-size: 35px;
+		font-size: 28px;
 		font-family: "franklin gothic medium";
 	}
 	.p-home{
@@ -353,7 +353,7 @@ img { -ms-interpolation-mode: bicubic; }
 		box-sizing: border-box;
 		font-family: tahoma;
 		text-shadow: 5px 8px 30px gray;
-		font-size: 20px;
+		font-size: 17px;
 		color: white;
 	}
 	.list-home{

@@ -1,22 +1,18 @@
-html{
-	font-size: 12px;
-	height: 100%;
-	font-family:"franklin gothic medium";
-}
 body{
 	height: 100%;
 }
 #fixedBtn{
 	width: 1%;
-	height: 2%;
 	position: fixed;
 	right: 2%;
 	top: 40%;
 	z-index: 100;
+	display: none;
 }
 #fixedBtn li{
-	width:50%;
-	height: 50%;
+	cursor: pointer;
+	width:7px;
+	height: 7px;
 	border-radius:50%;
 	background: white;
 	margin-top: 50%;
@@ -39,17 +35,16 @@ body{
 }
 .main_main{
 	width: 53.5%;
-	height:25%;
+	font-family: "franklin gothic medium";
 	background: rgba(0,0,0,0.5);
 	color: white;
-	font-size: 1.5rem;
 	text-align: center;
-	padding-top: 2.5%;
-	overflow:hidden; text-overflow:ellipsis;
+	padding: 2.5% 1%;
 	box-sizing: border-box;
 	position: absolute;
 	top: 50%;
 	left: 50%;
+	box-sizing: border-box;
 	transform: translate(-50%,-50%);
 	-moz-transform: translate(-50%,-50%);
 	-ms-transform: translate(-50%,-50%);
@@ -58,9 +53,9 @@ body{
 	
 }
 .main_one_top{
-	font-size:2.8rem;
 	font-weight: bold;
-	margin-bottom: 1%;
+	font-family: "franklin gothic book";
+	margin-bottom: 2%;
 }
 .main_two .main_main{
 	background: none;
@@ -71,15 +66,14 @@ body{
 	text-align: left;
 }
 .main_three{
-	padding: 6% 0 10%;
+	padding: 5% 0 10%;
 	background: #666;
 	box-sizing: border-box;
 }
 .main_three_title{
-	margin-bottom: 4%;
 	text-align: center;
 	color: white;
-	font-size: 2.5rem;
+	margin-bottom: 5%;
 }
 #a1{
 	width: 60%;
@@ -102,10 +96,11 @@ body{
 	left: 70%;
 	top: 35%;
 	text-align: right;
-	padding: 1%;
-	height: 37.1%;
-	width: 40%;
 }
+.main_five .main_one_top{
+	margin-bottom: 5%;
+}
+
 .main_six .main_main{
 	transform: translate(0%,0%);
 	-ms-transform: translate(0%,0%);
@@ -116,7 +111,6 @@ body{
 	top:0;
 	left: 0;
 	width: 100%;
-	height: 26.6%;
 }
 .main_six p:last-child{
 	padding: 1% 15%;
@@ -125,42 +119,63 @@ body{
 #main_log{
 	box-sizing: border-box;
 }
-.log_title{
-	line-height: 8rem;
-	text-align: center;
-	font-size: 2.5rem;
-}
 
+.log_title{
+	text-align: center;
+	padding: 3% 0 2%;
+	font-size: 20px;
+}
 .log_main{
 	width: 80%;
 	margin: auto;
 	border: 1px solid #EBEBEB;
 	border-bottom: none;
+	position: relative;
+	overflow: hidden;
 }
 .log_main li{
-	margin: auto;
 	border-bottom: 1px solid #EBEBEB;
 }
 .log_main li:nth-child(odd) span{
-		margin-right: 10.9%;
+		margin-right: 11.1%;
 }
-.log_main li:nth-child(odd)  span:first-child{
-	border-left: none;
+.log_main li:nth-child(odd) span:first-child:before{
+	background: white;
 }
-.log_main li:nth-child(odd)  span:last-child{
+.log_main li:nth-child(odd) span:last-child:after{
+	background: white;
+}
+.log_main li:nth-child(odd) span:last-child{
 	margin: 0;
-	border-right: none;
+}
+.log_main li:nth-child(even) span{
+		margin-left: 11.1%;
 }
 
-.log_main li:nth-child(even) span{
-		margin-left: 10.9%;
-}
+
 .log_main span{
-	width: 10.9%;
+	width: 11.1%;
 	float: left;
-	overflow: hidden;
-	border-left: 1px solid #EBEBEB;
-	border-right: 1px solid #EBEBEB;
+	box-sizing: border-box;
+	position: relative;
+}
+.log_main span:before{
+	content: '';
+	width: 1px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #EBEBEB;
+}
+.log_main span:after{
+	content: '';
+	width: 1px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: -1px;
+	background: #EBEBEB;
 }
 .log_main span:last-child{
 	margin: 0;
@@ -200,7 +215,6 @@ body{
 	display: block;
 }
 .rele_about .main_main{
-	height: 36.23%;
 	top: 0;
 	transform: translate(-50%,0);
 	-moz-transform: translate(-50%,0);
@@ -216,8 +230,132 @@ body{
 	width: 100%;
 }
 .about_main{
+	width: 80%;
+	height: 50%;
 	position: absolute;
-	bottom: 5%;
+	bottom: 3%;
 	left: 50%;
 	transform: translateX(-50%);
+}
+
+@media only screen and (min-width:1501px ) {
+	.main_one_top{
+		font-size: 30px;
+	}
+	.main_main p:last-child{
+		font-size: 18px;
+	}
+	.main_three_title{
+		font-size: 30px;
+	}
+	.log_title{
+		padding: 70px 0 50px;
+		font-size: 30px;
+	}
+	#fixedBtn{
+		display: block;
+	}
+}
+
+@media only screen and (min-width:1025px) and (max-width:1500px) {
+	#fixedBtn{
+		display: block;
+	}
+	.main_one_top{
+		font-size: 20px;
+	}
+	.main_main p:last-child{
+		font-size: 14px;
+	}
+	.main_three_title{
+		font-size: 20px;
+	}
+}
+
+@media only screen and (min-width:750px) and (max-width:1024px) {
+	.main_one_top{
+		font-size: 18px;
+	}
+	.main_main p:last-child{
+		font-size: 14px;
+	}
+	.main_three_title{
+		font-size: 18px;
+	}
+}
+
+@media only screen  and (max-width:749px) {
+	#main .main_main{
+		width: 90%;
+		left: 50%;
+		top: 10px;
+		transform: translate(-50%,0);
+		-moz-transform: translate(-50%,0);
+		-ms-transform: translate(-50%,0);
+		-o-transform: translate(-50%,0);
+		-webkit-transform: translate(-50%,0);
+	}
+	.main_four{
+		padding-top: 20%;
+	}
+	
+	 #main	.main_one .main_main{
+		transform: translate(-50%,50%);
+		-moz-transform: translate(-50%,50%);
+		-ms-transform: translate(-50%,50%);
+		-o-transform: translate(-50%,50%);
+		-webkit-transform: translate(-50%,50%);	
+	}
+	
+	#main .main_six .main_main{
+		transform: translate(0%,0);
+		-moz-transform: translate(0%,0);
+		-ms-transform: translate(0%,0);
+		-o-transform: translate(0%,0);
+		-webkit-transform: translate(0%,0);
+		top: 0;
+	}
+	.main_five .main_one_top{
+		margin-bottom: 1%;
+	}
+	#main .main_six .main_main{
+		left: 0;
+		width: 100%;
+	}
+	.rele_about  .main_one_top{
+		margin: 0;	
+	}
+	.rele_about .main_main{
+		width: 90%;
+	}
+	.main_one_top{
+		font-size: 14px;
+	}
+	.main_main p:last-child{
+		font-size: 10px;
+	}
+	.main_three_title{
+		font-size: 14px;
+	}	
+
+}
+@media only screen and (max-width:350px) {
+	.rele_about .main_main{
+		width: 100%;
+		line-height: 90%;
+		padding: 1%;
+	}
+	.main_one_top{
+		font-size: 12px;
+	}
+	.main_main p:last-child{
+		font-size: 10px;
+	}
+	.main_three_title{
+		font-size: 12px;
+	}
+	.about_main{
+		bottom: 1%;
+		height: 40%;
+	}
 }

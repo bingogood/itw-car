@@ -22,7 +22,9 @@ img { -ms-interpolation-mode: bicubic; }
 /*单行文字超出显示省略号*/
 .omg{overflow: hidden; text-overflow: ellipsis; white-space:nowrap;}
 /*—————————————根据屏幕大小———————————————*/
-
+.box p{font-family: 'franklin gothic book';}
+.box h1{font-family: 'franklin gothic medium';}
+.hide{overflow : hidden;text-overflow:ellipsis;display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;}
 @media only screen and (min-width:1441px) {
 	
 	
@@ -36,7 +38,6 @@ img { -ms-interpolation-mode: bicubic; }
 				right:12%;
 				top:16%;
 				z-index: 1;
-				height:50%;
 				color: white;}
 	.textarea1 .tip{color: white;
 				   margin: 3% 1%;
@@ -45,20 +46,16 @@ img { -ms-interpolation-mode: bicubic; }
 	.textarea1 p{margin-top:3%;
 				margin: auto;
 	 			 font-weight: 500;
-	 			 font-size:1rem;}
+	 			 font-size:1.5rem;}
 	.textarea1 div{width:20%;
-					 height:35%;
 					 margin: 1%;
 					 background:#c1c1c1;
 					 box-sizing: border-box;
 					 float: left;
 					 overflow: hidden;}
-	.textarea1 div img{width:70%;margin-top: 20%;margin-left: 15%;transition:1s all;}	
-	.textarea1 div:hover img{transform: scale(1.1);}		 	
-	.textarea1 .box2 img{margin-top:5%;} 		 
-	.textarea1 .box3 img{margin-top:15%;}
-	 
-	.textarea1 .box4 img{margin-top:25%;transform: rotateZ(-45deg);}
+	.textarea1 div img{width:100%;transition:1s all;}	
+	.textarea1 div:hover img{transform: scale(1.1);}	 	
+
 	.textarea2{	width:46%;
 					padding:1%;
 					box-sizing: border-box;
@@ -71,7 +68,7 @@ img { -ms-interpolation-mode: bicubic; }
 	.textarea2 .tip{ margin: 3% 1%; }
 	.textarea2 p{margin: 3% 1%;
 	 			 font-weight: 500;
-	 			 font-size:1rem;}
+	 			 font-size:1.5rem;}
 	.textarea3{		width:46%;
 					padding:1%;
 					box-sizing: border-box;
@@ -87,7 +84,7 @@ img { -ms-interpolation-mode: bicubic; }
 					 text-align: right;}
 	.textarea3 p{margin: 3% 1%;
 	 			 font-weight: 500;
-	 			 font-size:1rem;
+	 			 font-size:1.5rem;
 	 			 text-align: right;}
 	.textarea4{	width:60%;
 				padding:1% 3%;
@@ -107,7 +104,7 @@ img { -ms-interpolation-mode: bicubic; }
 				  }
 	.textarea4 p{margin: 3% 1%;
 	 			 font-weight: 500;
-	 			 font-size:1rem;
+	 			font-size:1.5rem;
 	 			}
 	.textarea5{	width:46%;
 				padding:1%;
@@ -120,7 +117,7 @@ img { -ms-interpolation-mode: bicubic; }
 	.textarea5 .tip{ margin: 3% 1%; }
 	.textarea5 p{margin: 3% 1%;
 	 			 font-weight: 500;
-	 			 font-size:1rem;}
+	 			 font-size:1.5rem;}
 	.textarea5 div{width:20%;
 					 height:30%;
 					 margin: 1%;
@@ -145,7 +142,6 @@ img { -ms-interpolation-mode: bicubic; }
 				right:12%;
 				top:16%;
 				z-index: 1;
-				height:55%;
 				color: white;
 				}
 	.textarea1 .tip{color: white;
@@ -153,22 +149,17 @@ img { -ms-interpolation-mode: bicubic; }
 				  	
 				  }	
 	.textarea1 p{margin-top:3%;
-				margin: auto;
+
 	 			 font-weight: 500;
-	 			 font-size:0.7rem;}
+	 			 font-size:1.1rem;;}
 	.textarea1 div{width:20%;
-					 height:30%;
-					 margin:5% 1%;
+					 margin: 1%;
 					 background:#c1c1c1;
 					 box-sizing: border-box;
 					 float: left;
 					 overflow: hidden;}
-	.textarea1 div img{width:70%;margin-top: 20%;margin-left: 15%;transition:1s all;}	
-	.textarea1 div:hover img{transform: scale(1.1);}		 	
-	.textarea1 .box2 img{margin-top:5%;} 		 
-	.textarea1 .box3 img{margin-top:15%;}
-	 
-	.textarea1 .box4 img{margin-top:25%;transform: rotateZ(-45deg);}
+	.textarea1 div img{width:100%;transition:1s all;}	
+	.textarea1 div:hover img{transform: scale(1.1);}
 	.textarea2{	width:46%;
 					padding:1%;
 					box-sizing: border-box;
@@ -181,7 +172,7 @@ img { -ms-interpolation-mode: bicubic; }
 	.textarea2 .tip{ margin: 3% 1%; }
 	.textarea2 p{margin: 3% 1%;
 	 			 font-weight: 500;
-	 			 font-size:1rem;}
+	 			 font-size:1.1rem;}
 	.textarea3{		width:46%;
 					padding:1%;
 					box-sizing: border-box;
@@ -197,7 +188,7 @@ img { -ms-interpolation-mode: bicubic; }
 					 text-align: right;}
 	.textarea3 p{margin: 3% 1%;
 	 			 font-weight: 500;
-	 			 font-size:1rem;
+	 			font-size:1.1rem;
 	 			 text-align: right;}
 	.textarea4{	width:60%;
 				padding:1% 3%;
@@ -217,7 +208,7 @@ img { -ms-interpolation-mode: bicubic; }
 				  }
 	.textarea4 p{margin: 3% 1%;
 	 			 font-weight: 500;
-	 			 font-size:1rem;
+	 			font-size:1.1rem;
 	 			}
 	.textarea5{	width:46%;
 				padding:1%;
@@ -230,7 +221,7 @@ img { -ms-interpolation-mode: bicubic; }
 	.textarea5 .tip{ margin: 3% 1%; }
 	.textarea5 p{margin: 3% 1%;
 	 			 font-weight: 500;
-	 			 font-size:1rem;}
+	 			 font-size:1.1rem;}
 	.textarea5 div{width:20%;
 					 height:30%;
 					 margin: 1%;
@@ -248,36 +239,29 @@ img { -ms-interpolation-mode: bicubic; }
 	.box{width:100%;position: relative;}
 	.box img{width:100%;display: block;}
 	.textarea1{	width:60%;
-				
 				padding:1%;
 				box-sizing: border-box;
 				background: rgba(0,0,0,0.7);
 				position:absolute;
 				right:12%;
 				top:16%;
-				height:75%;
 				z-index: 1;
 				color: white;
 				}
 	.textarea1 .tip{color: white;
-				   margin: 3% 1%;
+				   margin: 1%;
 				  	
 				  }
-	.textarea1 p{margin: 3% 1%;
-	 			 font-size:0.7rem;}
+	.textarea1 p{margin:1%;
+	 			 font-size:1rem;}
 	.textarea1 div{width:20%;
-					 height:30%;
-					 margin: 1%;
+					 margin: 2%;
 					 background:#c1c1c1;
 					 box-sizing: border-box;
 					 float: left;
 					 overflow: hidden;}
-	.textarea1 div img{width:70%;margin-top: 20%;margin-left: 15%;transition:1s all;}	
-	.textarea1 div:hover img{transform: scale(1.1);}		 	
-	.textarea1 .box2 img{margin-top:5%;} 		 
-	.textarea1 .box3 img{margin-top:15%;}
-	 
-	.textarea1 .box4 img{margin-top:25%;transform: rotateZ(-45deg);}
+	.textarea1 div img{width:100%;transition:1s all;}	
+	.textarea1 div:hover img{transform: scale(1.1);}
 	.textarea2{	width:60%;
 					padding:1%;
 					box-sizing: border-box;
@@ -288,7 +272,7 @@ img { -ms-interpolation-mode: bicubic; }
 					height:50%;
 					}
 	.textarea2 .tip{ margin: 3% 1%; }
-	.textarea2 p{margin: 3% 1%; font-size:0.7rem;
+	.textarea2 p{margin: 3% 1%; font-size:1rem;
 	 			}
 	.textarea3{		width:60%;
 					padding:1%;
@@ -303,7 +287,7 @@ img { -ms-interpolation-mode: bicubic; }
 	.textarea3 .tip{ margin: 3% 1%;
 					 color: white;
 					 text-align: right;}
-	.textarea3 p{margin: 3% 1%; font-size:0.7rem;
+	.textarea3 p{margin: 3% 1%; font-size:1rem;
 	 			 font-weight: 500;
 	 			
 	 			 text-align: right;}
@@ -319,12 +303,16 @@ img { -ms-interpolation-mode: bicubic; }
 				height:70%;
 				color: white;}
 	.textarea4 .tip{color: white;
-				   margin: 3% 1%;
+				   margin: 1%;
 				   text-align: center;
 				  	
 				  }
-	.textarea4 p{margin: 3% 1%; font-size:0.7rem;}
-	.textarea5{	width:70%;
+	.textarea4 p{margin:1%; font-size:1rem;
+				height:80%;
+				overflow : hidden;
+				text-overflow:ellipsis;
+				display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;}
+	.textarea5{	width:60%;
 				padding:1%;
 				box-sizing: border-box;
 				position:absolute;
@@ -333,7 +321,7 @@ img { -ms-interpolation-mode: bicubic; }
 				z-index: 1;
 				height:70%;}
 	.textarea5 .tip{ margin: 3% 1%; }
-	.textarea5 p{margin: 3% 1%; font-size:0.7rem;
+	.textarea5 p{margin: 3% 1%; font-size:1rem;
 	 			}
 	.textarea5 div{width:20%;
 					 height:30%;
@@ -351,40 +339,32 @@ img { -ms-interpolation-mode: bicubic; }
 @media only screen and (max-width:767px)and (min-width:426px){
 	.box{width:100%;position: relative;}
 	.box img{width:100%;display: block;}
-	.textarea1{	width:80%;
-				padding:1%;
+	.textarea1{	width:90%;
 				box-sizing: border-box;
 				background: rgba(0,0,0,0.7);
 				position:absolute;
 				right:5%;
-				top:10%;
-				height:85%;
+				top:5%;
 				z-index: 1;
 				color: white;
 				}
 	.textarea1 .tip{color: white;
-				   margin: 3% 1%;
-				   font-size: 0.7rem;}
-	.textarea1 p{margin-top:1%;
-				margin: auto;
-				height:40%;
+				   margin:1%;
+				   }
+	.textarea1 p{margin:1%;
 				display: block;
 				line-height:100%;
-				font-size: 0.5rem;
+				font-size: 1rem;
+				
 	 			}
-	.textarea1 div{width:20%;
-					 height:40%;
+	.textarea1 div{width:10%;
 					 margin: 1%;
 					 background:#c1c1c1;
 					 box-sizing: border-box;
 					 float: left;
 					 overflow: hidden;}
-	.textarea1 div img{width:70%;margin-top: 20%;margin-left: 15%;transition:1s all;}	
-	.textarea1 div:hover img{transform: scale(1.1);}		 	
-	.textarea1 .box2 img{margin-top:5%;} 		 
-	.textarea1 .box3 img{margin-top:15%;}
-	 
-	.textarea1 .box4 img{margin-top:25%;transform: rotateZ(-45deg);}
+	.textarea1 div img{width:100%;transition:1s all;}	
+	.textarea1 div:hover img{transform: scale(1.1);}
 	.textarea2{	width:80%;
 					padding:1%;
 					box-sizing: border-box;
@@ -395,7 +375,7 @@ img { -ms-interpolation-mode: bicubic; }
 					height:50%;
 					}
 	.textarea2 .tip{ margin: 3% 1%; }
-	.textarea2 p{margin: 3% 1%; font-size:0.7rem;
+	.textarea2 p{margin: 3% 1%; font-size:1rem;
 	 			}
 	.textarea3{		width:80%;
 					padding:1%;
@@ -410,7 +390,7 @@ img { -ms-interpolation-mode: bicubic; }
 	.textarea3 .tip{ margin: 3% 1%;
 					 color: white;
 					 text-align: right;}
-	.textarea3 p{margin: 3% 1%; font-size:0.7rem;
+	.textarea3 p{margin: 3% 1%; font-size:1rem;
 	 			 font-weight: 500;
 	 			
 	 			 text-align: right;}
@@ -428,10 +408,16 @@ img { -ms-interpolation-mode: bicubic; }
 				overflow: hidden;}
 	.textarea4 .tip{color: white;
 				   margin: 1%;
+				   margin-top: 4%;
 				   text-align: center;
-				  	
 				  }
-	.textarea4 p{margin:1%; font-size:0.7rem;}
+	.textarea4 p{margin:1%;
+				height:70%;
+				font-size: 1rem;
+				line-height: 100%;
+				overflow : hidden;
+				text-overflow:ellipsis;
+				display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;}
 	.textarea5{	width:80%;
 				padding:1%;
 				box-sizing: border-box;
@@ -441,10 +427,10 @@ img { -ms-interpolation-mode: bicubic; }
 				z-index: 1;
 				height:80%;}
 	.textarea5 .tip{ margin:1%; }
-	.textarea5 p{margin:1%;font-size: 0.7rem;
+	.textarea5 p{margin:1%;font-size:1rem;
 	 			}
-	.textarea5 div{width:20%;
-					 height:30%;
+	.textarea5 div{width:10%;
+					 height:20%;
 					 margin: 1%;
 					border: 1px solid gainsboro;
 					 box-sizing: border-box;
@@ -466,33 +452,25 @@ img { -ms-interpolation-mode: bicubic; }
 				position:absolute;
 				right:5%;
 				top:10%;
-				height:80%;
 				z-index: 1;
 				color: white;
 				}
 	.textarea1 .tip{color: white;
-				   margin:1%;
+				   margin:0.5% 1%;
 				   font-size: 0.8rem;}
-	.textarea1 p{margin:1% 1% 0;
-				height:30%;
-				display: block;
-				line-height:0.8rem;
-				font-size:10px;
-				overflow: hidden;
+	.textarea1 p{margin:0 1%;
+				line-height:100%;
+				font-size:12px;
 	 			}
-	.textarea1 div{width:20%;
-					 height:40%;
-					 margin: 2%;
+	.xs{display: none;}
+	.textarea1 div{width:10%;
+					 margin: 1%;
 					 background:#c1c1c1;
 					 box-sizing: border-box;
 					 float: left;
 					 overflow: hidden;}
-	.textarea1 div img{width:70%;margin-top: 20%;margin-left: 15%;transition:1s all;}	
-	.textarea1 div:hover img{transform: scale(1.1);}		 	
-	.textarea1 .box2 img{margin-top:5%;} 		 
-	.textarea1 .box3 img{margin-top:15%;}
-	 
-	.textarea1 .box4 img{margin-top:25%;transform: rotateZ(-45deg);}
+	.textarea1 div img{width:100%;transition:1s all;}	
+	.textarea1 div:hover img{transform: scale(1.1);}
 	.textarea2{	width:90%;
 					padding:1%;
 					box-sizing: border-box;
@@ -501,15 +479,16 @@ img { -ms-interpolation-mode: bicubic; }
 					top:8%;
 					z-index: 1;
 					height:80%;
-					/*background: rgba(255,255,255,0.2);*/
+					background: rgba(255,255,255,0.4);
 					}
-	.textarea2 .tip{ margin: 3% 1%;  font-size: 0.8rem;}
-	.textarea2 p{margin:1% 1% 0;
-				height:70%;
+	.textarea2 .tip{ margin:1%;  font-size: 0.8rem;}
+	.textarea2 p{margin:0 1%;
+				height:85%;
 				display: block;
-				line-height:100%;
-				font-size:10px;
+				font-size:12px;
 				overflow: hidden;
+				text-overflow:ellipsis;
+				display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
 	 			}
 	.textarea3{		width:90%;
 					padding:1%;
@@ -520,7 +499,7 @@ img { -ms-interpolation-mode: bicubic; }
 					z-index: 1;
 					height:80%;
 					color: white;
-					/*background: rgba(135,135,135,0.4);*/
+					background: rgba(135,135,135,0.4);
 					}
 	.textarea3 .tip{  margin:1%;  font-size: 0.8rem;
 					 color: white;
@@ -528,13 +507,12 @@ img { -ms-interpolation-mode: bicubic; }
 	.textarea3 p{margin-top:5%;
 				height:70%;
 				display: block;
-				line-height:100%;
-				font-size:10px;
+				font-size:12px;
 				overflow: hidden;}
 	.textarea4{	width:90%;
 				padding:1% 3%;
 				box-sizing: border-box;
-				/*background: rgba(0,0,0,0.2);*/
+				background: rgba(0,0,0,0.2);
 				position:absolute;
 				right:auto;
 				top:16%;
@@ -545,31 +523,34 @@ img { -ms-interpolation-mode: bicubic; }
 				}
 	.textarea4 .tip{color: white;
 				   text-align: center;
-				    margin:1%;  font-size: 0.8rem;
+				    margin:1%;  font-size: 1rem;
 				  	
 				  }
-	.textarea4 p{margin:1%; font-size:0.7rem;line-height:0.9rem;
-				height:70%;overflow: hidden;}
-	.textarea5{	width:90%;
+	.textarea4 p{ font-size:12px;
+				padding: 1%;
+				height:70%;
+
+				overflow : hidden;
+				text-overflow:ellipsis;
+				display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;}
+	.textarea5{	width:80%;
 				padding:1%;
 				box-sizing: border-box;
 				position:absolute;
 				left:5%;
-				top:10%;
+				top:5%;
 				z-index: 1;
 				height:90%;
-				/*background: rgba(135,135,135,0.2);*/}
+				}
 	.textarea5 .tip{ margin:1%;font-size: 0.8rem }
-	.textarea5 p{margin:1% 1%;
-				height:40%;
+	.textarea5 p{margin:1%;
+				font-weight:100;
 				display: block;
-				line-height:0.9rem;
-				font-size:10px;
-				overflow: hidden;
+				font-size:12px;
 	 			}
 	.textarea5 div{width:20%;
-					 height:30%;
-					 margin: 2%;
+					 height:20%;
+					 margin:1%;
 					border: 1px solid gainsboro;
 					 box-sizing: border-box;
 					 float: left;
@@ -578,5 +559,6 @@ img { -ms-interpolation-mode: bicubic; }
 	.textarea5 div:hover img{transform: scale(1.1);}		 	
 	.textarea5 .box2 img{margin-top:0%;} 		 
 	.textarea5 .box3 img{margin-top:15%;}
+	.addbox{width:100%;height:100px;}
 
 }

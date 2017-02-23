@@ -3,16 +3,16 @@
 	padding-bottom:10px;
 }
 .sanjiao1{
-    border-top: 4px solid transparent;
-    border-left: 8px solid #841b22;
-    border-bottom: 4px solid transparent;
-    left:4%;top:47%;
+    border-top: 3px solid transparent;
+    border-left: 6px solid #841b22;
+    border-bottom: 3px solid transparent;
+    left:4%;top:44%;
 }
 .logo_right{
 	width:100%;
 	font-size:12px;
 	text-align: center;
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 }
 .wenzi1{
 	font-size:14px;
@@ -26,13 +26,19 @@
 	top:42%;
 }
 .sanjiao2{
-    border-top: 4px solid transparent;
-    border-left: 8px solid #841b22;
-    border-bottom: 4px solid transparent;
-    left:4%;top:55%;
+    border-top: 3px solid transparent;
+    border-left: 6px solid #841b22;
+    border-bottom: 3px solid transparent;
+    left:4%;top:54%;
 }
 .neirong>a{
 	width:140px;
+}
+.neirong>h3{
+	font-size:17px;
+}
+.neirong>p{
+	font-size:15px;
 }
 .footer>p{
 	width:80%;

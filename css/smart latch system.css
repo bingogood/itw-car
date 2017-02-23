@@ -47,7 +47,7 @@ body{
 		display: none;
 	}
 }
-@media only screen and (max-width: 460px) and (min-width: 320px) {
+@media only screen and (max-width: 459px) and (min-width: 320px) {
 	.iphone5{
 		display: block;
 	}
@@ -62,7 +62,7 @@ body{
 		display: none;
 	}
 }
-@media only screen and (max-width: 700px) and (min-width:460px) {
+@media only screen and (max-width: 750px) and (min-width:460px) {
 	
 	.wenzi{
 		top: 8%;
@@ -74,7 +74,7 @@ body{
 	
 }
 
-@media only screen and (min-width: 768px)  {
+@media only screen and (max-width: 1023px) and (min-width: 749px)  {
 	.wenzi{
 		font-size: 14px;
 	}
@@ -82,20 +82,22 @@ body{
 		font-size: 20px;
 	}
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (max-width: 1499px) and (min-width: 1024px) {
 	.da{
-		    font-size: 1.2rem;
+		font-size: 20px;
 	}
 	.wenzi{
+		font-size: 14px;
 		 width: 32%;
 
 	}
 }
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1500px) {
 	.da{
-		font-size: 2.1rem;
+		font-size: 30px;
 	}
 	.wenzi{
+		font-size: 18px;
 		 width: 32%;
 
 	}

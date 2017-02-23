@@ -1,125 +1,156 @@
-html{
-	font-size: 40px;
-}
-#wap{
-	width:100%;
+
+#wap {
+	width: 100%;
 	height: 100%;
 	margin: auto;
 }
-.head ul a{
-	font-size:10px;
+
+.head-ul li a {
+	font-size: 14px;
+	font-family: "franklin gothic medium";
 }
-#banner{
+
+#banner {
 	width: 100%;
-	margin: auto;	
+	margin: auto;
 }
-.head ul li{
-	line-height: 0px;
-}
-.banner{
+
+.banner {
 	width: 100%;
 	height: 100%;
 	position: relative;
 }
-.banner>img{
+
+.banner>img {
 	width: 100%;
 	display: block;
 	height: 100%;
 }
-.banner>p:nth-child(1){
+
+.banner>p:nth-child(1) {
 	position: absolute;
-	right: 1%;
-	font-size: 1.3rem;
+	right:5%;
+	font-size: 20px;
 	color: #fff;
 	font-family: "Franklin gothic medium";
 	top: 40%;
 }
-.banner>p:nth-child(2){
+
+.banner>p:nth-child(2) {
 	width: 45%;
 	height: 100px;
 	position: absolute;
 	text-align: right;
 	color: #fff;
-	right: 1%;
+	right:5%;
 	font-family: "franklin gothic book";
-	font-size: 0.7rem;
+	font-size: 14px;
 	top: 49%;
+	
 }
-#nav{
+
+#nav {
 	width: 100%;
 	height: 100%;
 }
-.nav{
+
+.nav {
 	width: 100%;
 	height: 50%;
 	background: #993333;
 	padding-top: 3rem;
 	padding-bottom: 3rem;
 }
-.nav>p:nth-child(1){
-	font-size: 1rem;
-	width: 70%;
+
+.nav>p:nth-child(1) {
+	font-size: 20px;
+	width: 100%;
 	text-align: center;
 	color: #fff;
 	font-family: "Franklin gothic medium";
 }
-.nav>p:nth-child(2){
+
+.nav>p:nth-child(2) {
 	color: #fff;
 	text-align: center;
 	height: 1rem;
 	line-height: 1rem;
-	width: 70%;
+	width: 100%;
 	font-family: "franklin gothic book";
-	font-size: 0.6rem;
+	font-size: 14px;
 }
-.situ>ul{
+
+.situ>ul {
 	width: 100%;
 }
-.situ>ul>li{
+
+.situ>ul>li {
 	width: 50%;
 	float: left;
 }
-.situ>ul>li>a{
+
+.situ>ul>li>a {
 	display: block;
 	width: 100%;
 	height: 100%;
 	overflow: hidden;
 }
-.situ>ul>li>a>img{
+
+.situ>ul>li>a>img {
 	width: 100%;
 	display: block;
 	transition: all .2s linear;
 }
-.situ>ul>li>a>img:hover{
+
+.situ>ul>li>a>img:hover {
 	transform: scale(1.1);
 }
-@media screen and (min-width:360px) and (max-width:720px) {
-	
-	.banner>p:nth-child(1){
-		position: absolute;
+
+@media only screen and (min-width:1500px) {
+	.nav>p:nth-child(1),
+	.banner>p:nth-child(1) {
+		font-size: 30px;
+	}
+	.nav>p:nth-child(2),
+	.banner>p:nth-child(2) {
+		font-size: 18px;
+		margin-top: 20px;
+	}
+	.nav>p:nth-child(1),
+	.nav>p:nth-child(2) {
 		text-align: center;
-		width: 98%;
-		margin: auto;
-		right: 1%;
-		font-size: 1.7rem;
+	}
+	.head-ul li a {
+	font-size: 14px;
+	font-family: "franklin gothic medium";
+}
+}
+
+@media only screen and (min-width: 750px) and (max-width:1499px) {
+	.banner>p:nth-child(1) {
+		position: absolute;
+		text-align: right;
+		margin-right: 5%;		
+		font-size: 20px;
+		text-shadow:0px 0px 10px #333 ;
 		color: #fff;
 		font-family: "Franklin gothic medium";
-		top: 21%;
 	}
-	.head ul li{
-		line-height: 300%;
-	}
-	.banner>p:nth-child(2){
-		position: absolute;
-		width: 95%;
+	.banner>p:nth-child(2) {
+		width: 40%;
 		margin: auto;
-		font-size: 1rem;
+		font-size:14px;
 		color: #fff;
-		text-align: center;
+		text-align: right;
 		font-family: "Franklin gothic medium";
-		top: 46%;
+		margin-right: 5%;
 	}
-	.nav>p:nth-child(1){
+	.nav>p:nth-child(1),.nav>p:nth-child(2) {
+		width: 90%;
+		margin: auto;
+		text-align: center;
+	}
+	.nav>p:nth-child(1) {
 		margin-top: -20px;
 		width: 100%;
 		color: #fff;
@@ -127,47 +158,103 @@ html{
 		height: 1rem;
 		line-height: 1rem;
 		font-family: "franklin gothic book";
-		font-size: 1.5rem;
+		font-size: 20px;
 	}
-	.nav>p:nth-child(2){
+	.nav>p:nth-child(2) {
 		color: #fff;
 		text-align: center;
 		height: 2rem;
 		line-height: 1rem;
-		width:90%;
+		width: 90%;
 		font-family: "franklin gothic book";
-		font-size: 1rem;
+		font-size: 14px;
+		-webkit-transform:scale(0.8);
 		margin: auto;
 		margin-top: 12px;
 	}
-	
+	.head-ul li a {
+		font-size: 12px;
+		line-height: 2.5rem;
+		font-family: "franklin gothic medium";
+	}
 }
-@media screen and (max-width: 360px) {
-	.banner>p:nth-child(1){
+
+@media screen and (min-width:350px) and (max-width:749px) {
+	.banner>p:nth-child(1) {
+		position: absolute;
+		text-align: center;
+		width: 98%;
+		margin: auto;
+		right: 1%;
+		font-size: 14px;
+		text-shadow: 0px 0px 10px #000;
+		color: #fff;
+		font-family: "Franklin gothic medium";
+		top: 37%;
+	}
+	.banner>p:nth-child(2) {
+		position: absolute;
+		width: 95%;
+		margin: auto;
+		font-size:10px;
+		-webkit-transform:scale(0.8);
+		color: #fff;
+		text-align: center;
+		font-family: "Franklin gothic medium";
+		top: 46%;
+	}
+	.nav>p:nth-child(1) {
+		margin-top: -20px;
+		width: 100%;
+		color: #fff;
+		text-align: center;
+		height: 1rem;
+		line-height: 1rem;
+		font-family: "franklin gothic book";
+		font-size: 14px;
+	}
+	.nav>p:nth-child(2) {
+		color: #fff;
+		text-align: center;
+		height: 2rem;
+		line-height: 1rem;
+		width: 90%;
+		font-family: "franklin gothic book";
+		font-size: 10px;
+		-webkit-transform:scale(0.8);
+		margin: auto;
+		margin-top: 12px;
+	}
+}
+
+@media screen and (max-width: 349px) {
+	.banner>p:nth-child(1) {
 		position: absolute;
 		text-align: center;
 		width: 96%;
 		margin: auto;
 		right: 1%;
-		font-size: 1.9rem;
+		font-size: 12px;
 		color: #fff;
+		text-shadow:0px 0px 10px #333;
 		font-family: "Franklin gothic medium";
-		top: 6%;
+		top: 25%;
 	}
-	.head ul li{
+	/*.head ul li{
 		line-height: 300%;
-	}
-	.banner>p:nth-child(2){
+	}*/
+	.banner>p:nth-child(2) {
 		position: absolute;
 		width: 95%;
 		margin: auto;
-		font-size: 1rem;
+		font-size: 10px;
+		-webkit-transform:scale(0.8);
 		color: #fff;
 		text-align: center;
 		font-family: "Franklin gothic medium";
 		top: 40%;
 	}
-	.nav>p:nth-child(1){
+	.nav>p:nth-child(1) {
 		margin-top: -30px;
 		width: 100%;
 		color: #fff;
@@ -175,18 +262,18 @@ html{
 		height: 1rem;
 		line-height: 1rem;
 		font-family: "franklin gothic book";
-		font-size: 1.5rem;
+		font-size: 12px;
 	}
-	.nav>p:nth-child(2){
+	.nav>p:nth-child(2) {
 		color: #fff;
 		text-align: center;
 		height: 2rem;
 		line-height: 1rem;
-		width:90%;
+		width: 90%;
 		font-family: "franklin gothic book";
-		font-size: 1rem;
+		font-size: 10px;
+		-webkit-transform:scale(0.8);
 		margin: auto;
 		margin-top: 12px;
 	}
-	
 }

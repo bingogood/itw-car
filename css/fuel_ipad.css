@@ -58,9 +58,7 @@ margin: auto;
 	font-size:14px;
 	color: #fff;
 }
-.fuel_3 img{
-	width:100%;
-}
+
 #a1{
 	width:60%;
 	height:75%;
@@ -72,6 +70,7 @@ margin: auto;
 	-ms-transform: translateX(-50%) translateY(-50%);
 	-o-transform: translateX(-50%) translateY(-50%);
 	transform: translateX(-50%) translateY(-50%);
+	
 }
 
 .fuel_4{

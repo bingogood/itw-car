@@ -4,11 +4,6 @@
 	border: 0;
 }
 
-
-/*html{
-	font-size: 40px;
-}*/
-
 .omg {
 	overflow: hidden;
 	text-overflow: ellipsis;
@@ -38,6 +33,9 @@ body {
 /*pc端*/
 
 @media screen and (min-width: 1500px) {
+	#cao li a {
+		font-size: 14px;
+	}
 	html,
 	body {
 		font-size: 40px;
@@ -83,16 +81,15 @@ body {
 		margin: 40px auto;
 	}
 	.guojia li div img {
-		float: left;
 		vertical-align: bottom;
 		width: 0.6rem;
 	}
 	.guojia li div span {
-		float: right;
 		font-size: 12px;
+		margin-left: 1%;
 	}
 	.guojia li {
-		width: 3rem;
+		width: 13%;
 		height: 3rem;
 	}
 	.img {
@@ -100,7 +97,7 @@ body {
 		margin-top: 5px;
 	}
 	.guojia li:not(.not) {
-		margin-left: 8%;
+		margin-left: 4%;
 	}
 	.gao {
 		margin-top: 1%;
@@ -220,12 +217,21 @@ body {
 	.img3 img {
 		width: 41%;
 	}
+	#da {
+		font-size: 38px;
+	}
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1500px) {
+	#cao li a {
+		font-size: 14px;
+	}
 	html,
 	body {
 		font-size: 30px;
+	}
+	#da {
+		font-size: 35px;
 	}
 	#banner {
 		width: 100%;
@@ -257,7 +263,7 @@ body {
 	#body {
 		font-family: "franklin gothic medium";
 		width: 93%;
-		margin: 3% auto -3%;
+		margin: 3% auto;
 	}
 	#body>p {
 		font-size: 30px;
@@ -272,10 +278,11 @@ body {
 		width: 0.6rem;
 	}
 	.guojia li div span {
-		font-size: 12px;
+		font-size: 13px;
+		margin-left: 2px;
 	}
 	.guojia li {
-		width: 3rem;
+		width: 15%;
 		height: 3rem;
 	}
 	.img {
@@ -283,10 +290,10 @@ body {
 		margin-top: 5px;
 	}
 	.guojia li:not(.not) {
-		margin-left: 8%;
+		margin-left: 2%;
 	}
 	.gao {
-		margin-top: 1%;
+		margin-top: 3%;
 	}
 	.body_two {
 		width: 100%;
@@ -313,7 +320,7 @@ body {
 		float: left;
 	}
 	.body_two_left a {
-		font-size: 45px;
+		font-size: 35px;
 	}
 	.body_two_left span {
 		margin-left: 2%;
@@ -410,9 +417,15 @@ body {
 /*ipad*/
 
 @media screen and (min-width: 736px) and (max-width: 1024px) {
+	#cao li a {
+		font-size: 12px;
+	}
 	html,
 	body {
 		font-size: 30px;
+	}
+	#da {
+		font-size: 35px;
 	}
 	#banner {
 		width: 100%;
@@ -459,10 +472,11 @@ body {
 		width: 1.2rem;
 	}
 	.guojia li div span {
-		font-size: 12px;
+		margin-left: 1px;
+		font-size: 13px;
 	}
 	.guojia li {
-		width: 5rem;
+		width: 18%;
 		height: 4rem;
 		margin-top: 2rem;
 	}
@@ -471,7 +485,7 @@ body {
 		margin-top: 5px;
 	}
 	.guojia li:not(.not2) {
-		margin-left: 11%;
+		margin-left: 8%;
 	}
 	.gao {
 		margin-top: 1%;
@@ -502,7 +516,7 @@ body {
 		float: left;
 	}
 	.body_two_left a {
-		font-size: 40px;
+		font-size: 30px;
 	}
 	.body_two_left span {
 		margin-left: 2%;
@@ -535,7 +549,7 @@ body {
 		margin-left: 25%;
 		width: 60%;
 		transform: translateX(-22%);
-		margin-top: 6%;
+		margin-top: 5%;
 		font-size: 14px;
 	}
 	.itw div img {
@@ -558,7 +572,7 @@ body {
 	}
 	.body_three_left div {
 		font-size: 16px;
-		margin-top: 6%;
+		margin-top: 2%;
 	}
 	.body_three_right {
 		text-align: right;
@@ -595,10 +609,16 @@ body {
 	}
 }
 
-@media screen and (min-width:414px) and (max-width:736px) {
+@media screen and (min-width:520px) and (max-width:736px) {
+	#cao li a {
+		font-size: 12px;
+	}
 	html,
 	body {
 		font-size: 30px;
+	}
+	#da {
+		font-size: 28px;
 	}
 	#banner {
 		width: 100%;
@@ -609,7 +629,7 @@ body {
 	}
 	.leader {
 		width: 82%;
-		height: 60%;
+		height: 40%;
 		background: rgba(82, 82, 82, 0.5);
 		position: absolute;
 		right: 9%;
@@ -647,16 +667,20 @@ body {
 		width: 2rem;
 	}
 	.guojia li div span {
-		font-size: 16px;
+		font-size: 18px;
+		margin-left: 1%;
 	}
 	.guojia li {
-		width: 45%;
+		width: 40%;
 		height: 10rem;
 		margin-top: 4%;
 	}
 	.img {
 		width: 100%;
-		margin-top: 5px;
+		margin-top: 10px;
+	}
+	.guojia li:not(.not2) {
+		margin-left: 0;
 	}
 	.guojia li:not(.not3) {
 		margin-left: 10%;
@@ -718,15 +742,15 @@ body {
 		font-size: 20px;
 	}
 	.itw div:nth-child(2) {
-		/*margin-top: 1%;*/
+		margin-top: 1%;
 	}
 	.itw div:nth-child(3) {
 		margin-left: 25%;
-		width: 70%;
+		width: 60%;
 		height: 50px;
-		transform: translateX(-15%);
-		margin-top: 6%;
-		line-height: 9px;
+		transform: translateX(-10%);
+		margin-top: 8%;
+		line-height: 16px;
 		font-size: 12px;
 	}
 	.itw div img {
@@ -742,14 +766,13 @@ body {
 		margin: 50% auto 0px;
 	}
 	.body_three_left {
-		/*float: left;*/
 		width: 100%;
 	}
 	.body_three_left p {
 		font-size: 24px;
 	}
 	.body_three_left div {
-		font-size: 12px;
+		font-size: 14px;
 		margin-top: 5%;
 	}
 	.body_three_right {
@@ -771,7 +794,7 @@ body {
 		margin: auto;
 	}
 	.body_four_middle p {
-		font-size: 20px;
+		font-size: 22px;
 	}
 	.bai {
 		width: 100%;
@@ -785,7 +808,11 @@ body {
 		width: 41%;
 	}
 }
-@media screen and (min-width:370px) and (max-width:414px) {
+
+@media screen and (min-width:370px) and (max-width:520px) {
+	#cao li a {
+		font-size: 12px;
+	}
 	html,
 	body {
 		font-size: 30px;
@@ -793,14 +820,13 @@ body {
 	#banner {
 		width: 100%;
 		position: relative;
-		
 	}
 	#banner img {
 		width: 100%;
 	}
 	.leader {
 		width: 82%;
-		height: 60%;
+		height: 55%;
 		background: rgba(82, 82, 82, 0.5);
 		position: absolute;
 		right: 9%;
@@ -811,7 +837,7 @@ body {
 	}
 	.leader p:nth-child(1) {
 		font-family: "franklin gothic medium";
-		font-size: 20px;
+		font-size: 18px;
 	}
 	.leader p:nth-child(2) {
 		position: relative;
@@ -913,11 +939,11 @@ body {
 	}
 	.itw div:nth-child(3) {
 		margin-left: 25%;
-		width: 70%;
+		width: 75%;
 		height: 50px;
-		transform: translateX(-15%);
+		transform: translateX(-14%);
 		margin-top: 6%;
-		line-height: 9px;
+		line-height:11px;
 		font-size: 12px;
 	}
 	.itw div img {
@@ -925,7 +951,7 @@ body {
 		position: absolute;
 		margin-left: 20%;
 		left: 0px;
-		margin-top: 28%;
+		margin-top: 29%;
 	}
 	.body_three {
 		height: 100%;
@@ -976,10 +1002,14 @@ body {
 		width: 41%;
 	}
 }
-@media screen and (min-width:320px) and (max-width:370px) {
+
+@media screen and (max-width:370px) {
+	#cao li a {
+		font-size: 12px;
+	}
 	html,
 	body {
-		font-size: 30px;
+		font-size: 25px;
 	}
 	#banner {
 		width: 100%;
@@ -1001,7 +1031,7 @@ body {
 	}
 	.leader p:nth-child(1) {
 		font-family: "franklin gothic medium";
-		font-size: 18px;
+		font-size: 16px;
 	}
 	.leader p:nth-child(2) {
 		position: relative;
@@ -1070,11 +1100,11 @@ body {
 		float: left;
 	}
 	.body_two_left a {
-		font-size: 20px;
+		font-size: 18px;
 	}
 	.body_two_left span {
 		margin-left: 2%;
-		font-size: 0.3rem;
+		font-size: 10px;
 	}
 	.juli {
 		margin-top: 10%;
@@ -1100,12 +1130,13 @@ body {
 		font-size: 20px;
 	}
 	.itw div:nth-child(3) {
+		font-family: 'Times New Roman';
 		margin-left: 25%;
 		width: 90%;
 		height: 50px;
 		transform: translateX(-22%);
-		margin-top: 10%;
-		line-height: 12px;
+		margin-top: 8%;
+		line-height: 13px;
 		font-size: 12px;
 	}
 	.itw div img {
@@ -1123,7 +1154,7 @@ body {
 		width: 100%;
 	}
 	.body_three_left p {
-		font-size: 24px;
+		font-size: 22px;
 	}
 	.body_three_left div {
 		font-size: 12px;

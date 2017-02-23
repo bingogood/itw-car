@@ -1,64 +1,68 @@
 
-.fuel_one{
+.fuel_one {
 	width: 100%;
 	position: relative;
 }
 
-.imgs{
-display: block;
+.imgs {
+	display: block;
 	width: 100%;
 }
+
 .fuel_1 {
-	width:35% ;
+	width: 35%;
 	position: absolute;
-	right:5%;
-	top:30%;
-	
+	right: 5%;
+	top: 30%;
 }
-.fuel_1_1{
-	font-family:"franklin gothic medium";
+
+.fuel_1_1 {
+	font-family: "franklin gothic medium";
 	width: 100%;
-	font-size:30px;
+	font-size: 30px;
 	color: #841c24;
 	margin-bottom: 30px;
 	text-align: right;
 }
-.fuel_1_2{
-	font-family:"franklin gothic book";
-	font-size:18px;
+
+.fuel_1_2 {
+	font-family: "franklin gothic book";
+	font-size: 18px;
 	width: 90%;
 	float: right;
 	text-align: right;
 }
-.fuel_2{
+
+.fuel_2 {
 	width: 40%;
 	height: 30%;
 	position: absolute;
 	top: 20%;
-	left:5%;
-	background-color: rgba(0,0,0,.6);
-	
+	left: 5%;
+	background-color: rgba(0, 0, 0, .6);
 }
-.fuel_2_1{
+
+.fuel_2_1 {
 	width: 90%;
 	margin: auto;
-	font-family:"franklin gothic medium";
-	font-size:30px;
+	font-family: "franklin gothic medium";
+	font-size: 30px;
 	color: #fff;
-	margin-bottom:30px;
-	margin-top:30px;
+	margin-bottom: 30px;
+	margin-top: 30px;
 }
-.fuel_2_2{
-width: 90%;
-margin: auto;
-	font-family:"franklin gothic book";
-	font-size:18px;
+
+.fuel_2_2 {
+	width: 90%;
+	margin: auto;
+	font-family: "franklin gothic book";
+	font-size: 18px;
 	color: #fff;
 }
 
-#a1{
-	width:60%;
-	height:75%;
+#a1 {
+	width: 60%;
+	height: 75%;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -67,53 +71,58 @@ margin: auto;
 	-ms-transform: translateX(-50%) translateY(-50%);
 	-o-transform: translateX(-50%) translateY(-50%);
 	transform: translateX(-50%) translateY(-50%);
+/*	background: red;*/
 }
 
-.fuel_4{
-	width:60%;
-	height:36%;
+.fuel_4 {
+	width: 60%;
+	height: 36%;
 	position: absolute;
-	top:32%;
+	top: 32%;
 	left: 20%;
-	background-color:rgba(0,0,0,.6);
-	
-}
-.fuel_4_1{
-	width: 90%;
-	margin:auto;
-	font-family:"franklin gothic medium";
-	font-size:30px;
-	color: #fff;
-	text-align: center;
-	margin-bottom:30px;
-	margin-top:30px;
-}
-.fuel_4_2{
-	width: 90%;
-	margin:auto;
-	font-family:"franklin gothic book";
-	font-size:18px;
-	text-align: center;
-	color: #fff;
+	background-color: rgba(0, 0, 0, .6);
 }
 
+.fuel_4_1 {
+	width: 90%;
+	margin: auto;
+	font-family: "franklin gothic medium";
+	font-size: 30px;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+.fuel_4_2 {
+	width: 90%;
+	margin: auto;
+	font-family: "franklin gothic book";
+	font-size: 18px;
+	text-align: center;
+	color: #fff;
+}
 
 .fuel_5 {
-	width:35% ;
+	width: 35%;
 	position: absolute;
-	right:5%;
-	top:30%;
-	
+	right: 5%;
+	top: 30%;
 }
-.fuel_5_1{
-	font-family:"franklin gothic medium";
-	font-size:30px;
-	color:#000000;
+
+.fuel_5_1 {
+	font-family: "franklin gothic medium";
+	font-size: 30px;
+	color: #000000;
 	margin-bottom: 30px;
 }
-.fuel_5_2{
-	font-family:"franklin gothic book";
-	font-size:18px;
+
+.fuel_5_2 {
+	font-family: "franklin gothic book";
+	font-size: 18px;
 	color: #000000;
 	font-weight: 400;
+}
+@media only screen and (min-width:1440px) {
+	
 }
